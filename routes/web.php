@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'StaticPageController@home')->name('StaticP.home');
 Route::get('/contatti', 'StaticPageController@contatti')->name('StaticP.contatti');
-Route::get('/studenti', 'Students@studenti')->name('Students.studenti');
+Route::get('/studenti', 'StudentsController@studenti')->name('Students.studenti');

@@ -40,5 +40,6 @@
             'age' => 38,
             'job' => 'Web Developer',
             'description' => 'Dopo la laurea magistrale in scienze umanistiche e sociali, si concentra sullo sviluppo di strategie marketing. Decide di cambiare vita, questa volta puntando sullo sviluppo Front-End.'
-        ]
+        ],
+        
     ];
