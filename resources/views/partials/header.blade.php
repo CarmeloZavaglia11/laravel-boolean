@@ -10,8 +10,8 @@
             <li class="nav-item {{(url()->current() == route('StaticP.contatti')) ? 'active' : ''}}">
                 <a class="nav-link" href="{{route('StaticP.contatti')}}">Contatti</a>
             </li>
-            <li class="nav-item {{(url()->current() == route('Students.studenti')) ? 'active' : ''}}">
-                <a class="nav-link" href="{{route('Students.studenti')}}">Studenti</a>
+            <li class="nav-item {{(url()->current() == route('StudentsController.studenti')) ? 'active' : ''}}">
+                <a class="nav-link" href="{{route('StudentsController.studenti')}}">Studenti</a>
             </li>
             </ul>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Iscriviti</button>
