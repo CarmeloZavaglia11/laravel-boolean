@@ -10,7 +10,7 @@
         <hr class="my-4">
         <p>Segui il corso, diventi un web developer e trovi lavoro.</p>
         <p class="lead">
-        <a class="btn btn-outline-success btn-lg" href="{{route('Students.studenti')}}" role="button">Guarda i nostri studenti</a>
+        <a class="btn btn-outline-success btn-lg" href="{{route('StudentsController.studenti')}}" role="button">Guarda i nostri studenti</a>
         </p>
     </div>
 
