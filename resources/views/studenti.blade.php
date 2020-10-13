@@ -5,20 +5,19 @@
 @section('content')
     
     <div class="students">
-        @foreach ($data as $student)
+        @foreach ($data as $key => $student)
 
-            <div class="student">
+                <a href="{{route('StudentsController.slug',['slug'=>$student['slug']])}}"><div class="student">
                 <div class="bg">
-                    <h3>{{$student['name']}}</h3>
+                <h3>{{$student['name']}}</h3>
                     <span>{{$student['age']}} anni</span>
                     <h4>{{$student['job']}}</h4>
-                    <p>{{$student['description']}}</p>
                 </div>
                 
                 <div class="img-student">
                     <img src="{{$student['img']}}" class="img-responsive" alt="{{$student['name']}}">
                 </div>
-            </div>
+            </div></a>
             
         @endforeach
     </div>
