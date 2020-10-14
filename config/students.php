@@ -48,3 +48,23 @@
         ],
         
     ];
+
+    // INSERT TO DB
+
+    // $datas = config('students');
+
+    // foreach ($datas as $studente) {
+        
+    //     DB::table('students')->insert([
+
+    //         ['name' => $studente['name'],
+    //         'age' => $studente['age'] ,
+    //         'slug' => $studente['slug'] ,
+    //         'job' => $studente['job'] ,
+    //         'description' => $studente['description'] ,
+    //         'img' => $studente['img']
+    //         ]
+
+    //     ]);
+
+    // }
